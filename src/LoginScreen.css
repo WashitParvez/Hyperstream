@@ -1,0 +1,163 @@
+.loginScreen{
+    position: relative;
+    top: 2px;
+    height: 750px;
+    background: url("https://stream.gudsho.com/assets/images/banner-1.webp") center no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.loginScreen_body > h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+    position: relative;
+    left: 140px;
+    top:-60px;
+}
+
+.loginScreen_body > h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    position: relative;
+    left: 140px;
+    top: -90px;
+}
+
+.loginScreen_body > h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    position: relative;
+    left: 140px;
+    top: -110px;
+}
+
+.loginScreen_body{
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+}
+
+.loginScreen_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    
+}
+
+.loginScreen_button{
+    position: fixed;
+    right: 20px;
+    top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    background-color: black;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.loginScreen_logo{
+    position: fixed;
+    left: 0;
+    width: 180px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.loginScreen_input > form > input{
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+
+.loginScreen_input{
+    margin: 20px;
+    position: relative;
+    top: -110px;
+    left: 130px;
+}
+
+.loginScreen_getStarted{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.about-us{
+    background-color: transparent;
+    padding-top: 20px;   
+}
+
+.about-us > h1{
+    background-color: black;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: -20px;
+}
+
+.about-us > p{
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    background-color: black;
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 1.8px;
+    word-spacing: 4px;
+    color: white;
+}
+
+
+.contact-us > h1{
+    background-color: black;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.division{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    color: #fff;
+    padding-left: 290px;
+    padding-bottom: 20px;
+ }
+
+ .footer{
+    display: grid;
+    grid-template-columns: auto auto; 
+    background-color: black;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+ }
+
+ .footer > span{
+     padding-left: 520px;
+ }
+
+ .footer > p{
+     padding-right: 450px;
+ }
+
